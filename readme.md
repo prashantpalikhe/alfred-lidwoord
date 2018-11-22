@@ -2,8 +2,6 @@
 
 > Alfred 3 workflow to figure out article for a Dutch word
 
-<img src="alfred-bundlephobia.gif" width="895">
-
 
 ## Install
 
@@ -21,4 +19,4 @@ In Alfred, type `lidwoord`, <kbd>Enter</kbd>, and your query.
 
 ## License
 
-MIT © [Prashant Palikhe](https://github.com/prashantpalikhe/alfred-bundlephobia)
+MIT © [Prashant Palikhe](https://github.com/prashantpalikhe/alfred-lidwoord)
