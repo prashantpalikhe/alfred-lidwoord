@@ -1,0 +1,36 @@
+{
+  "name": "alfred-lidwoord",
+  "version": "0.0.1",
+  "description": "Alfred 3 workflow to figure out article for a Dutch word",
+  "license": "MIT",
+  "repository": "prashantpalikhe/alfred-lidwoord",
+  "author": {
+    "name": "Prashant Palikhe",
+    "email": "prashpal09@gmail.com",
+    "url": "github.com/prashantpalikhe/alfred-lidwoord"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "util.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0",
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "lodash": "^4.17.11"
+  }
+}
